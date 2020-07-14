@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODAYS WORK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>20 07 Form Lecture</h1>
+    <form>
+        <h4>Lecture</h4>
+    <!-- name field -->
+    <div>
+        <label for="studentName">Name</label>
+        <input type="text" name="studentName" id="studentName"
+        placeholder="First Name Last Name">
+    </div>
+        
+
+    <!--SSN field  -->
+    <div>
+        <label for="studentSSN">Last 4 Digits of SSN</label>
+        <input type="password" name="studentSSN" id="studentSSN">
+ 
+    </div>
+
+        
+
+    <!-- Age field -->
+    <div>
+        <label for="studentage">Age :</label>
+        <input type="number" name="studentAge" id="studentAge">
+    </div>
+
+        
+
+    <!-- Email field -->
+    <div>
+        <label for="studentEmail">Email :</label>
+        <input type="email" name="studentEmail" id="studentEmail">
+    </div>
+
+
+        <!-- Birthday field -->
+        <div>
+            <label for="studentBirthday">Birthday</label>
+        <input type="date" name="studentBirthday" id="studentBirthday">
+
+        </div>
+       
+        <!-- Cohort field -->
+        <div>
+            <label for="cohortSelection">Cohort :</label>
+        <select name="cohortSelection" id="cohortSelection">
+            <option value="0">--</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+        </div>
+
+        <!-- patient from memphis -->
+
+        <p>Is the patient from the Memphis Area</p>
+        <div>
+            <input type="radio" name="studentLocation" id="local" value="local">
+            <label for="local">Local</label>
+        </div>
+
+        <div>
+            <input type="radio" name="studentLocation" id="notLocal" value="notlocal">
+            <label for="notLocal">Not Local</label>
+       
+        </div>
+    
+       
+<!-- Student Checkboxes -->
+        
+        <p>Check all experience that apply</p>
+        <div>
+            <label for="studentInterst">Interest in Programming</label>
+            <input type="checkbox" name="studentInterst" id="studentInterst">  
+        </div>
+
+        <div>
+            <label for="studentXP">experience in Programming</label>
+            <input type="checkbox" name="studentXP" id="studentXP">
+        </div>
+
+        <div>
+            <label for="studentEdu">Formal Education in Programming</label>
+        <input type="checkbox" name="studentEdu" id="studentEdu">
+        </div>
+
+        
+
+<!-- button type -->
+<div>
+    
+    <button type="submit">Submit Form</button>
+    <buton type="reset">Reset Form</button>
+</div>
+
+       
+
+    </form>
+    
+</body>
+</html>
